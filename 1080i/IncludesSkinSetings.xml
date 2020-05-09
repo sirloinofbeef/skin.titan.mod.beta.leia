@@ -287,7 +287,7 @@
             <control type="radiobutton" id="13014">
                 <include>SkinSettings_Button</include>
                 <label>31086</label>
-                <visible>[Skin.String(HomeLayout, 1) | Skin.String(HomeLayout, 2) | Skin.String(HomeLayout, 3) | Skin.String(HomeLayout, 1small) | Skin.String(HomeLayout, 2small) | Skin.String(HomeLayout, 3small) | Skin.String(HomeLayout, enhanced)]</visible>
+                <visible>[Skin.String(HomeLayout, 1) | Skin.String(HomeLayout, 2) | Skin.String(HomeLayout, 3) | Skin.String(HomeLayout, 1small) | Skin.String(HomeLayout, 2small) | Skin.String(HomeLayout, 3small) | Skin.String(HomeLayout, enhanced)| Skin.String(HomeLayout, simplever_tiles)]</visible>
                 <onclick>Skin.ToggleSetting(NoTitleOnHomeMenuTiles)</onclick>
                 <selected>Skin.HasSetting(NoTitleOnHomeMenuTiles)</selected>
             </control>
